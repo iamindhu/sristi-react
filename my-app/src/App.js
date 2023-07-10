@@ -4,6 +4,7 @@ import './css/App.css';
 import Navbar from './Navbar';
 import MainBanner from './MainBanner';
 import SetupPipeline from './SetupPipeline';
+import Toolbar from './Toolbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import WOW from 'wowjs';
@@ -19,6 +20,9 @@ function App() {
       <Navbar />
       <MainBanner />
       <SetupPipeline />
+      <Toolbar />
+    
+     
     </div>
   );
 }

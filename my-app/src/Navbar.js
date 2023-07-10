@@ -11,6 +11,7 @@ function Navbar() {
   }, []);
 
   return (
+    // <h1>idihs</h1>
     <nav className={`navbar fixed-top ${showNavbar ? 'show' : ''}`}>
       <div className="navbar-container container">
         <input type="checkbox" name="toggle-menu" id="toggle-menu" />
